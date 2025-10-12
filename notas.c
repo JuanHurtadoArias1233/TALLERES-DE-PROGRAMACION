@@ -84,7 +84,7 @@ int main() {
                 }
                 break;
 
-            case 3: // Mostrar promedios por asignatura
+            case 3: // Mostrar promedios por asignaturas no designadas 
                 if (registrado == 0) {
                     printf("\nPrimero se deben registrar las calificaciones.");
                 } else {

@@ -19,7 +19,7 @@ int main() {
         printf("\n1. Registrar calificaciones.");
         printf("\n2. Mostrar promedios por estudiante.");
         printf("\n3. Mostrar promedios por asignatura.");
-        printf("\n4. Mostrar calificación más alta y baja por estudiante.");
+        printf("\n4. Mostrar calificación más baja y alta por estudiante.");
         printf("\n5. Mostrar calificación más baja y alta por asignatura.");
         printf("\n6. Mostrar aprobados y reprobados por asignatura.");
         printf("\n7. Salir.");

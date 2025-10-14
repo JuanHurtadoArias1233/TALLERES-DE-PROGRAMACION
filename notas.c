@@ -125,7 +125,7 @@ int main() {
                 }
                 break;
 
-            case 5: // Mostrar calificación más alta y baja por asignatura
+            case 5: // Mostrar calificación más baja y alta por asignatura
                 if (registrado == 0) {
                     printf("\nPrimero se deben registrar las calificaciones.");
                 } else {

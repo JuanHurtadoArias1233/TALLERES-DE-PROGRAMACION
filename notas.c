@@ -106,7 +106,7 @@ int main() {
                 if (registrado == 0) {
                     printf("\nPrimero se deben registrar las calificaciones.");
                 } else {
-                    printf("\n--- CALIFICACIÓN MÁS ALTA Y BAJA POR ESTUDIANTE ---");
+                    printf("\n--- CALIFICACIÓN MÁS BAJA Y ALTA POR ESTUDIANTE ---");
                     for (i = 0; i < 5; i++) {
                         float min = calificaciones[i][0];
                         float max = calificaciones[i][0];

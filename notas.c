@@ -20,7 +20,7 @@ int main() {
         printf("\n2. Mostrar promedios por estudiante.");
         printf("\n3. Mostrar promedios por asignatura.");
         printf("\n4. Mostrar calificación más alta y baja por estudiante.");
-        printf("\n5. Mostrar calificación más alta y baja por asignatura.");
+        printf("\n5. Mostrar calificación más baja y alta por asignatura.");
         printf("\n6. Mostrar aprobados y reprobados por asignatura.");
         printf("\n7. Salir.");
         printf("\nOpción: ");
@@ -129,7 +129,7 @@ int main() {
                 if (registrado == 0) {
                     printf("\nPrimero se deben registrar las calificaciones.");
                 } else {
-                    printf("\n--- CALIFICACIÓN MÁS ALTA Y BAJA POR ASIGNATURA ---");
+                    printf("\n--- CALIFICACIÓN MÁS BAJA Y ALTA POR ASIGNATURA ---");
                     for (j = 0; j < 3; j++) {
                         float min = calificaciones[0][j];
                         float max = calificaciones[0][j];
